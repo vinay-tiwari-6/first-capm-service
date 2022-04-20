@@ -3,18 +3,7 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns:form="sap.ui.layout.form"
     displayBlock="true"
-    xmlns="sap.m"
->
-    <!-- <Shell id="shell">
-        <App id="app">
-            <pages>
-                <Page id="page" title="{i18n>title}">
-                    <content />
-                </Page>
-            </pages>
-        </App>
-    </Shell> -->
-
+    xmlns="sap.m">
     <Shell id="shell">
         <App id="app">
             <pages>
