@@ -1,0 +1,18 @@
+<mvc:View
+    controllerName="com.vinay.practices.sapui5nodejs.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    displayBlock="true"
+    xmlns="sap.m"
+>
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+                    <content>
+                    <Button icon="sap-icon://submit" type="Transparent" text="Ok" press="nodejsAPICall" ariaLabelledBy="editButtonLabel"/>
+                    </content>
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>
